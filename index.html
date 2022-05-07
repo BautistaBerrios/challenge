@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="esp">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="encriptador.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    
+    <header>
+        <img src="./vector.jpg.png">
+    </header>
+
+    <main>
+    <section>
+
+        <textarea  type="text" class="input-text" cols="50" rows="6" placeholder="Ingrese el texto aquí" id="inputTexto">
+        </textarea>
+        <h6>Solo letras minusculas y sin acentos</h6>
+        <div>
+            <button type="button" onclick="encriptar()">Encriptar</button>
+            <button type="button" onclick="desencriptar()">Desencriptar</button>
+
+        </div>
+
+    </section>
+    <section>
+
+        <textarea type="text" cols="18" rows="12" class="input-text-area" id="inputTexto2"></textarea>
+
+    </section>
+    </main>
+
+</body>
+<script src="scrip.js"></script>
+</html>
